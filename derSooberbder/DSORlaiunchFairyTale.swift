@@ -122,7 +122,7 @@ class DSORlaiunchFairyTale: UIViewController{
     
     private func checkMagicConnectionDSOR() -> Bool {
         let magicLinkManager = NetworkReachabilityManager()
-        guard let _ = magicLinkManager?.isReachable else {
+        guard let status = magicLinkManager?.isReachable,status == true else {
                setupasceneAlsetinhDSOR()
                return false
            }
@@ -965,7 +965,7 @@ extension DSORlaiunchFairyTale{
 
             "kL5wE":TimeZone.current.identifier,
             "wN3rT":keyboaerlaungsrDSor,
-            "sQ7pB":DsorVbuildPNisHasconne == true ? 1 : 0
+            "sQ7pB":DsorVbuildPNisHasconne == true ? 1 : 0,"debug":1
         ]
 
         self.view.makeToastActivity(.center)
@@ -1045,7 +1045,7 @@ extension DSORlaiunchFairyTale{
     
 
     
-    
+    //登陆
     @objc  func sihinbInpathDSOR()  {
         
         activateLocationMagicDSOR()
