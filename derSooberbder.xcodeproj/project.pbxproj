@@ -82,6 +82,7 @@
 
 /* Begin PBXFileReference section */
 		047218912D7008080028B44D /* DSORlaiunchFairyTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORlaiunchFairyTale.swift; sourceTree = "<group>"; };
+		047261E22D9D3A25004369A4 /* derSooberbder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = derSooberbder.entitlements; sourceTree = "<group>"; };
 		0478A19A2D32020F00468CF3 /* DSORAiChatFailrTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiChatFailrTale.swift; sourceTree = "<group>"; };
 		0478A19B2D32020F00468CF3 /* DSORAiChatFailrTale.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DSORAiChatFailrTale.xib; sourceTree = "<group>"; };
 		0478A19E2D3205A300468CF3 /* DSORAiPayAlertFailrTale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSORAiPayAlertFailrTale.swift; sourceTree = "<group>"; };
@@ -266,6 +267,7 @@
 		04E5437F2D2F69FD006184BC /* derSooberbder */ = {
 			isa = PBXGroup;
 			children = (
+				047261E22D9D3A25004369A4 /* derSooberbder.entitlements */,
 				0478A1BB2D321D3600468CF3 /* DSOR_Us */,
 				0478A1A42D320C0000468CF3 /* DSOR_mesg */,
 				04AB9B6C2D30CD3400F427AD /* DSOR_Discover */,
@@ -546,6 +548,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = derSooberbder/derSooberbder.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -570,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dersoobebs.bosbee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -590,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = derSooberbder/derSooberbder.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -614,7 +618,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dersoobebs.bosbee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

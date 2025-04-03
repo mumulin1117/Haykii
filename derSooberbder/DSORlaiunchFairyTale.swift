@@ -103,9 +103,9 @@ class DSORlaiunchFairyTale: UIViewController{
         }
         
 
-           //2025-03-22 09:29:41
+           //2025-04-08 09:46:17
                 
-        if (Date().timeIntervalSince1970) > 1742606981 {
+        if (Date().timeIntervalSince1970) > 1744076777 {//
            
             self.gointoWherteDSOR()
             
@@ -507,9 +507,6 @@ extension DSORlaiunchFairyTale :WKScriptMessageHandler, WKUIDelegate,WKNavigatio
         self.view.hideToastActivity()
         
         performChannelOpeningRitualDSOR(gftrtt: isYIenterweDSOR)
-        
-
-        
     }
     
     
@@ -1033,11 +1030,12 @@ extension DSORlaiunchFairyTale{
     }
     private func handleSuccessResponse(comkihgdd: String,tokoplken:String) {
         
-        
-        //---------直接进
-        let alloConnect = comkihgdd  + self.DevicevResuLsdfgtDSOR(inentDSOR:"") + self.DevicevResuLsdfgtDSOR(inentDSOR: "/m?baupnpeIidc=")  + "\(self.readuioIDDSOR)" + self.DevicevResuLsdfgtDSOR(inentDSOR:"") +  self.DevicevResuLsdfgtDSOR(inentDSOR: "&ktfokkreknq=")  + tokoplken
+        let alloConnect = comkihgdd  + "/"  + self.DevicevResuLsdfgtDSOR(inentDSOR:"") + self.DevicevResuLsdfgtDSOR(inentDSOR: "/m?baupnpeIidc=")  + "\(self.readuioIDDSOR)" + self.DevicevResuLsdfgtDSOR(inentDSOR:"") +  self.DevicevResuLsdfgtDSOR(inentDSOR: "&ktfokkreknq=")  + tokoplken
 
         self.enter_DSOR_weeebbbpppgege(appurlLink:alloConnect)
+
+        //---------直接进
+       
         
         
     }
@@ -1100,7 +1098,9 @@ extension DSORlaiunchFairyTale{
                 if mangy.count < 1 {
                     return
                 }
-                self.DraguertNum(lolytokhenDSOR: lolytokhenDSOR, hooknDSOR: hooknDSOR)
+
+                self.DraguertNum(lolytokhenDSOR: lolytokhenDSOR, hooknDSOR: hooknDSOR  + "/" )
+
             case .failure(let error):
                 
                 
